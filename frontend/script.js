@@ -1,6 +1,6 @@
 document.getElementById('post').addEventListener('click', async function() {
     const inputValue = document.getElementById('textinput').value;
-    console.log('Input Value: ', inputValue);
+    // console.log('Input Value: ', inputValue);
 
     let object = {
         tweet : inputValue
